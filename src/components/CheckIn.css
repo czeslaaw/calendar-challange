@@ -1,0 +1,79 @@
+.check-in {
+    width: 300px;
+    border: 1px solid #eeeeee;
+    padding: 10px;
+}
+
+.check-in__price-container {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.check-in__price {
+    font-size: 1.1em;
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.check-in__per-night {
+    font-size: .6em;
+    font-weight: 600;
+}
+
+.check-in__rating-container {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.check-in__stars {
+    font-size: .7em;
+    margin-right: 5px;
+}
+
+.check-in__reviews-count {
+    font-size: .7em;
+}
+
+.check-in__dates {
+    text-align: left;
+    margin-bottom: 7px;
+    font-size: .6em;
+    font-weight: 800;
+}
+
+.check-in__controls-container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 10px;
+}
+
+.check-in__check-in,
+.check-in__check-out {
+    flex: 3;
+    height: 18px;
+    font-size: .9em;
+    border: none;
+    text-align: left;
+    padding: 1px;
+}
+
+.check-in__arrow {
+    flex: 1;
+    font-size: 1.2em;
+}
+
+.check-in .calendar {
+    margin-top: 5px;
+}
+
+.check-in__dates-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6px;
+}
